@@ -31,4 +31,4 @@ The repository is organized by topics, and each topic has its own directory. Her
 You're welcome to use this repository as a resource for learning and practicing DSA. You can clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/Hrishikesh-S-Nair/Codes_C-and-Cpp/DSA-Practice.git
+git clone https://github.com/Hrishikesh-S-Nair/Codes_C-and-Cpp.git
