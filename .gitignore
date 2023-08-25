@@ -1,0 +1,78 @@
+# macOS system files
+.DS_Store
+
+# Text editor and IDE files
+.vscode/
+*.swp
+*~
+
+# Package manager directories
+node_modules/
+yarn-error.log
+npm-debug.log
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Compiled binary files
+*.log
+*.pyc
+__pycache__/
+*.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.backup
+*.~*
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Libraries
+*.lib
+*.a
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment directories
+venv/
+.env/
+
+# macOS folder attributes
+._*
+
+# Visual Studio files
+.vs/
