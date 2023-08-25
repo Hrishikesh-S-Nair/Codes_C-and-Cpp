@@ -1,5 +1,6 @@
-#include<iosteram>
+#include <iostream>
 
-using namespace std;
-
-int main;
+int main() {
+    // Your C++ code here
+    return 0;
+}
