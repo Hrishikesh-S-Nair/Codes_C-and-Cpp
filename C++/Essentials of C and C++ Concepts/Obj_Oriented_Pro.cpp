@@ -5,41 +5,56 @@ using namespace std;
 
 class Rectangle
 {
-public:
+private:
     int length;
     int breadth;
-
-void initialise (int l, int b)
-{
-    length=l;
-    breadth=b;
-}
-
-int area()
-{
-    return length*breadth;
-}
-
-int perimeter()
-{
-    return 2*(length+breadth);
-}
+public:
+    Rectangle()
+    {
+        length=0;
+        breadth=0;
+    }
+    Rectangle(int l, int b)
+    {
+        length=l;
+        breadth=b;
+    }
+    int area()
+    {
+        return length*breadth;
+    }
+    int perimeter()
+    {
+        return 2*(length+breadth);
+    }
+    void setLength(int l)
+    {
+        length=l;
+    }
+    void setBreadth(int b)
+    {
+        breadth=b;
+    }
+    int getLength()
+    {
+        return length;
+    }
+    int getBreadth()
+    {
+        return breadth;
+    }
+    ~Rectangle()
+    {
+        cout<<"Destructor"<<endl;
+    }
 };
 
 int main()
 {
-    Rectangle r={0,0};
-  
-    int length, breadth;
-    cout<<"Enter Length and Breadth ";
-    cin>>length>>breadth;
+    Rectangle r(10,5);
 
-    r.initialise (length, breadth);
-
-    int a=r.area();
-    int p=r.perimeter();
-
-    cout<<"Area "<<a<<endl<<"Perimeter "<<p<<endl;
+    cout<<"Area "<<r.area()<<endl;
+    cout<<"Perimeter "<<r.perimeter()<<endl;
 
     return 0;
 }
