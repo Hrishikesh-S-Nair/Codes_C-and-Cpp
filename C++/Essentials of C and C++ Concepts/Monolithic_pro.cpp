@@ -16,4 +16,4 @@ int main()
     printf("Area %d \nPerimeter %d \n", area, peri);
 
     return 0;
-}
+} 
