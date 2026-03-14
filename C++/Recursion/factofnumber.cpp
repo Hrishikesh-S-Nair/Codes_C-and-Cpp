@@ -24,4 +24,5 @@ int main()
     r=Ifact(5);
     printf("%d ", r);
     return 0;
+    
 }
