@@ -16,7 +16,6 @@ int power1(int m, int n)
     return m*power(m*m, (n-1)/2);
 }
 
-
 int main()
 {
     int r=power1(2,9);
