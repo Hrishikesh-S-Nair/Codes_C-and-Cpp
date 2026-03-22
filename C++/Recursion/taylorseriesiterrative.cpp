@@ -13,6 +13,6 @@ double e(int x, int n)
 
 int main()
 {
-    printf("%lf \n", e(1,9));
+    printf("%lf  \n", e(1,9));
     return 0;
 }
