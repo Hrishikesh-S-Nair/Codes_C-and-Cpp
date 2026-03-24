@@ -3,8 +3,9 @@
 double e(int x, int n)
 {
     double s=1;
+    
 
-    for( ; n>0; n--)
+    for( ;n>0;  n--)
     {
         s=1+x*s/n;
     }
